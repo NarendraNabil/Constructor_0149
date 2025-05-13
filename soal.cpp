@@ -37,3 +37,10 @@ void PersegiPanjang::outputData(BangunDatar &bd) {
     cout << "Luas : " << bd.hitungLuas() << endl;
     cout << "Keliling : " << bd.hitungKeliling() << endl;
 }
+
+int main() {
+    PersegiPanjang pP;
+    BangunDatar bD;
+    pP.inputData(bD);
+    pP.outputData(bD);
+}
