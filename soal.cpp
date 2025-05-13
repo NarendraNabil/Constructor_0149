@@ -17,7 +17,7 @@ class BangunDatar{
             return panjang * lebar;
         };
         float hitungKeliling(){
-            return 2* (panjang * lebar);
+            return 2* (panjang + lebar);
         };
     public: 
         // untuk mengakses panjang dan lebar
