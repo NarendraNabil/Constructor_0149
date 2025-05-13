@@ -10,3 +10,7 @@ class mahasiswa{
         cout  << "Constructor Terpanggil" << endl; // definisi constructor
     };
     
+    int main (){
+        mahasiswa mhs; // pembuatan objek
+        return 0;
+        }
